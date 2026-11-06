@@ -1,0 +1,31 @@
+{
+  "name": "material-desk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedBoussouir/Material-Desk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedBoussouir/Material-Desk/issues"
+  },
+  "homepage": "https://github.com/MohamedBoussouir/Material-Desk#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.3.0",
+    "joi": "^18.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.4",
+    "nodemon": "^3.1.14"
+  }
+}
